@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     # path('students/',include('students.api.urls')),      
     # path("feedback/", include("feedback.urls")),
-    path('',include('query_optimization.urls'))
+    path('query-optimization/',include('query_optimization.urls')),
+    path('caching/',include('caching.urls'))
 ]
